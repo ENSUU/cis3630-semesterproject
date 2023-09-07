@@ -1,0 +1,788 @@
+/* Universal Selectors */
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* Class Selectors */
+
+.heroImage {
+    width: 95%;
+    border-radius: 30%;
+    background-image: url("images/cake2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heroTextSection, .heroImageSection {
+    text-align: center; 
+}
+
+
+.heroImageSection {
+   padding: 5em;
+}
+
+.heroImageSection img {
+    margin: 2em auto;
+}
+
+.heroTextSection {
+    padding: 8em 3em 8em 3em;
+    height: 100%; 
+    margin: auto 0;
+}
+
+.heroTextSection h1 {
+    font-weight: bold;
+    font-size: 6vw;
+    text-transform: capitalize;
+}
+
+.heroTextSection a img {
+    width: 10%;
+    height: 10%;
+    margin: 2em 0;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* Navigation Bar Styling  */
+
+.navbar {
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.25);
+}
+
+.secondaryNav {
+    display: none; 
+}
+
+.navbar-logo-normal {
+    display: none;
+    /* margin: 0 auto 0 calc(40% + 1em); */
+}
+
+.navbar-brand {
+    margin: 0 2rem;
+}
+
+.navbar-toggler {
+    border: none; 
+}
+
+.nav-item {
+    text-decoration: none;
+    font-family: 'Bai Jamjuree', sans-serif;
+    letter-spacing: 1.5px;
+    margin: auto 0.5em;
+}
+
+.nav-link {
+    color: black;
+    font-weight: light;
+    text-decoration: none;
+    font-size: 105%;
+}
+
+.nav-link:visited {
+    color: #E97777;
+}
+
+.nav-link:hover {
+    color: #FF9F9F;
+}
+
+
+.productCategories {
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin: 0;
+}
+
+.inside {
+    font-weight: bold;
+    text-align: right;
+    color: white;
+    padding: 5em 3em;
+}
+
+.cakeCategory {
+    background-image: url("images/cake.jpg");
+}
+
+.bakedCategory {
+    background-image: url("images/baked.jpg");
+}
+
+.frozenCategory {
+    background-image: url("images/frozen.jpg");
+}
+
+
+.cakeCategory,
+.bakedCategory,
+.frozenCategory {
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cakeCategory:hover,
+.bakedCategory:hover,
+.frozenCategory:hover {
+    opacity: 80%;
+}
+
+.callToActionSection {
+    padding: 3em;
+    text-align: center;
+}
+
+.sectionTitle {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: bold;
+    color: #E97777;
+}
+
+.companyIntro {
+    text-align: center;
+    max-width: 800px;
+    margin: 3em auto;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.companyIntro p {
+    margin: 2em auto;
+    line-height: 32px;
+}
+
+.wavingImage {
+    width: 50px;
+    height: 50px;
+    margin: 2em auto;
+}
+
+.nextButton,
+.productNextButton {
+    width: 30px;
+    height: 30px;
+}
+
+.nextButton:hover, .productNextButton:hover {
+    animation: wiggle 1s linear infinite alternate;
+}
+
+.ctaImage {
+    background-image: url("images/icecreamHero.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.ctaDesc {
+    margin-top: 3em;
+}
+
+.testimonial-image {
+    width: 50px;
+    height: 50px;
+}
+
+.carousel-inner {
+    max-width: 55%;
+    margin: 0 auto;
+}
+
+.carousel-indicators {
+    display: block;
+    position: relative;
+    padding: 3em;
+}
+
+.carousel-item em {
+    display: block;
+    margin-top: 3em;
+}
+
+.carousel-inner {
+    margin-top: 2em;
+}
+
+.heroText {
+    font-size: 4em;
+    font-weight: bold;
+    color: white;
+    padding-top: 3em;
+    max-width: 98%;
+}
+
+.ctaButton {
+    text-decoration: none;
+    background-color: #FF9F9F;
+    color: white;
+    padding: 15px 45px;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ctaButton:hover {
+    background-color: #E97777;
+}
+
+/* Breadcrumb Navigation for Cake, Baked, and Frozen Page */
+
+.breadcrumb {
+    padding: 1.1rem;
+    margin: auto; 
+}
+
+.breadcrumb-item, .breadcrumb-item a {
+    font-size: 18px;
+}
+
+.breadcrumb-item a {
+    text-decoration: none; 
+    color: #E97777;
+}
+
+.cakeBreadCrumb {
+    text-align: center; 
+}
+
+/* Products Page */
+
+.productMain {
+    background: linear-gradient(#FF9F9F, #E97777);
+    color: white; 
+    padding: 2em;
+}
+
+.cakeSection, .bakedSection, .frozenSection {
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 2rem;
+}
+
+.cakeProducts,
+.bakedProducts,
+.frozenProducts {
+    font-family: 'Roboto Bold', sans-serif;
+    text-align: center;
+    padding: 2em;
+    margin: 1em;
+}
+
+.cakeProducts h1,
+.bakedProducts h1,
+.frozenProducts h1 {
+    font-size: 64px;
+    font-weight: bold; 
+}
+
+.cakeProducts p,
+.bakedProducts p,
+.frozenProducts p {
+    font-size: 18px; 
+}
+
+.productImages {
+    margin: auto 0;
+}
+
+.productImages img {
+    width: 300px;
+    height: 300px;
+    margin: 2em 1em;
+    border-radius: 12px;
+}
+
+.productNextButton {
+    margin-top: 2em;
+}
+
+/* About Page */
+.custom-shape-divider-bottom-1683343728 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1683343728 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 49px;
+}
+
+.custom-shape-divider-bottom-1683343728 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.ourStoryIntro {
+    position: relative; 
+    color: white; 
+}
+
+.ourStoryLeftSection, .ourStoryRightSection, .ourTeamRightSection, .ourTeamLeftSection {
+    text-align: center; 
+}
+
+.ourStoryLeftSection {
+    padding: 6rem;
+    background-color: #E97777; 
+}
+
+
+.ourStoryLeftSection h1 {
+    font-weight: bold;
+    font-size: 6rem;
+}
+
+.ourStoryLeftSection p {
+    padding-top: 10px;
+    font-size: 1.3rem;
+}
+
+.ourStoryRightSection {
+    background-color: #FCDDB0;
+}
+
+.ourStoryRightSection img {
+    width: 35rem; 
+    height: 35rem;
+}
+
+.missionStatementSection, .ourLocation {
+    text-align: center; 
+    max-width: 65%;
+    margin: 2rem auto;
+}
+
+.missionStatementSection img, .ourLocation img{
+    width: 8rem; 
+    height: 8rem;
+    margin: 3rem;
+}
+
+.missionStatementSection h1, .ourLocation h1 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.missionStatementSection p, .ourLocation p {
+    margin: 2em 2em 4em 2em;
+    font-size: 20px;
+}
+
+.ourTeamSection {
+    position: relative;
+}
+
+.custom-shape-divider-top-1683352127 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1683352127 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 70px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1683352127 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.ourTeamLeftSection {
+    background-image: url("images/cooking.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.ourTeamLeftSection {
+    background-color:  #FCDDB0;
+}
+
+.ourTeamRightSection {
+    background-color: #E97777; 
+    padding: 5rem;
+    color: white; 
+    font-size: 20px;
+}
+
+.ourTeamRightSection h1 {
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.locationMap {
+    width: 90%;
+}
+
+/* Cake Section, Baked Section & Frozen Section*/
+.cakeProductRow div, .bakedProductRow div, .frozenProductRow div{
+    background-color: #F5F5F5;
+    text-align: center; 
+    padding: 3rem;
+    margin: 0.2rem;
+}
+
+.cakeProductRow div h3, .bakedProductRow div h3, .frozenProductRow div h3{
+    font-weight: bold;
+}
+
+.cakeProductRow div img, .bakedProductRow div img, .frozenProductRow div img{
+    padding: 2rem;
+}
+
+.cakeCard, .bakedCard, .frozenCard {
+    width: 32.5%; 
+    height: auto;
+}
+
+.cakeSectionIntroText, .bakedSectionIntroText, .frozenSectionIntroText {
+    background-color: #E97777; 
+    color: white; 
+    padding: 4rem 6rem;
+}
+
+.cakeSectionIntroText h1, .bakedSectionIntroText h1, .frozenSectionIntroText h1 {
+    margin-bottom: 1rem;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.cakeSectionSideImage, .bakedSectionSideImage, .frozenSectionSideImage {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.cakeSectionSideImage {
+    background-image: url("images/heroImage3.jpg"); 
+    background-size: cover; 
+}
+
+.bakedSectionSideImage {
+    background-image: url("images/baked4.jpg");  
+}
+
+.frozenSectionSideImage {
+    background-image: url("images/frozen3.jpg")
+}
+
+.bakedCard img:hover, .cakeCard img:hover, .frozenCard img:hover {
+    transform: scale(1.1);
+}
+
+.productPicture {
+    width: 100%; 
+}
+
+/* Contact Page  */
+
+.contactPage {
+    text-align: center; 
+    background: linear-gradient(#FF9F9F, #E97777);
+    padding: 7rem 0; 
+}
+
+.contactPage h1 {
+    font-size: 5rem;
+}
+
+.contactPage p {
+    font-size: 20px;
+}
+
+.contactPage h1, .contactPage p {
+    color: white; 
+}
+
+.contactPage h1, .contactPage h3 {
+    font-weight: bold; 
+}
+
+.contactUsForm {
+    max-width: 50%; 
+    margin: 0 auto;
+}
+
+.formButton {
+    background-color: black;
+    font-weight: bold; 
+    border: none; 
+    padding: 12px 24px;
+}
+
+.formButton:hover {
+    background-color: black; 
+    transform: scale(1.1);
+}
+
+/* Modal Window */
+.modalWindow {
+    background-color: rgba(50, 50, 50, 0.6);
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    display: none;
+    max-height: 100%;
+    overflow-y: auto;
+    border: solid 2px beige;
+    text-align: center;
+}
+
+.modalBody {
+    width: 45%;
+    margin: 5% auto;
+    border-radius: 10%;
+    background-color: #FFFFFF;
+    border: solid 2px magenta;
+}
+
+.goBack {
+    width: 30px; 
+    height: 30px;
+    margin: 10px;
+}
+
+/* .modalImage {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 70%;
+    border: solid 2px aquamarine;
+} */
+
+.modalPicture {
+    margin: 0 auto;
+    width: 80%; 
+    padding: 1em 5em;
+    border: solid 2px blue;
+}
+
+.modalProductDescription {
+    margin-bottom: 2rem;
+    border: solid 2px gray;
+}
+
+.modalInformation {
+    text-align: center; 
+    border: solid 2px yellow;
+}
+
+.modalPrice {
+    font-size: 16px;
+    border: solid 2px green;
+    font-weight: bold;
+}
+
+.addToCart {
+    display: inline-block;
+    width: 200px;
+    background-color: #E97777;
+    text-decoration: none;
+    padding: 1em 2em;
+    border-radius: 18px;
+    color: white;
+    border: solid 2px black;
+  }
+  
+  .addToCart:hover {
+    color: white;
+    background-color: #FF9F9F;
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+  }
+
+/* Thank You Page  */
+
+.thankYouPage {
+    text-align: center; 
+    padding: 9rem 0;
+}
+
+.thankYouPage h1 {
+    font-size: 5rem;
+}
+
+.thankYouPage img {
+    width: 6rem; 
+    height: 6rem;
+    margin: 1em;
+}
+
+.returnHome {
+    display: inline-block;
+    width: 300px; 
+    background-color: #E97777;
+    text-decoration: none; 
+    padding: 1em 2em; 
+    border-radius: 12px; 
+    color: white; 
+    margin: 2em; 
+}
+
+.returnHome:hover {
+    color: white;
+    background-color: #FF9F9F;
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+}
+
+/* ID Selectors  */
+
+#logo {
+    width: 170px;
+    height: 100px;
+}
+
+#heroImageSection {
+    background: linear-gradient(#FF9F9F, #E97777);
+    color: white; 
+    border-radius: 0 0 2% 2%; 
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1513px) {
+    .productImage2 {
+        display: none; 
+    }
+}
+
+@media screen and (max-width: 1393px) {
+    .col-sm-6 {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .cakeProducts h1,
+    .bakedProducts h1,
+    .frozenProducts h1 {
+        font-size: 4vw;
+    }
+
+    .cakeProducts p, 
+    .bakedProducts p, 
+    .frozenProducts p {
+        font-size: 1.8vw;
+    }
+
+    .companyIntro, .heroTextSection {
+        padding: 3rem;
+    }
+
+    .heroTextSection h1 {
+        margin-top: 3rem;
+    }
+
+    .inside {
+        padding: 3em; 
+    }
+
+    .heroImageSection {
+        padding: 0;
+    }
+
+    .heroImage, .ourStoryRightSection, .ourTeamLeftSection, .modalProductDescription, .productImage {
+        display: none;
+    }
+
+    .cakeCategory, .bakedCategory, .frozenCategory {
+        height: 15vh;
+    }
+
+    .ourStoryLeftSection, .heroTextSection, .modalPicture, .ourTeamRightSection, .frozenDescription, .bakedDescription, .cakeDescription {
+        width: 100%; 
+    }
+
+    .callToActionSection {
+        font-size: 16px;
+    }
+
+    .modalImage {
+        padding: 0;
+        max-width: 100%; 
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .navbar-logo-normal {
+        margin: 0 auto; 
+    }
+
+    .secondaryNav, .navbar-logo-normal {
+        display: block; 
+    }
+
+    .nav-item {
+        display: inline-block;
+    }
+
+    .nav-item-logo, .navbar-collapse, .navbar-toggler, .locationMap {
+        display: none;
+    }
+
+    .navbarLeft, .navbarRight, .secondaryNav, .cakeSectionIntroText, .bakedSectionIntroText, .frozenSectionIntroText {
+       text-align: center; 
+    }
+
+}
+
+@media screen and (max-width: 955px) {
+
+    .cakeDescription, .bakedDescription, .frozenDescription, .frozenCard, .bakedCard, .cakeCard, .cakeSectionIntroText, .bakedSectionIntroText, .frozenSectionIntroText {
+        width: 100%; 
+    }
+
+    .cakeProductRow div img, .bakedProductRow div img, .frozenProductRow div img{
+        width: 40vw; 
+    }
+
+    .cakeSectionSideImage, .bakedSectionSideImage, .frozenSectionSideImage, .callToActionSection, .companyIntro p{
+        display: none; 
+    }
+
+
+}
+
+@keyframes wiggle {
+    0% {
+      transform: translateX(0.5em);
+    }
+    100% {
+      transform: translateX(-0.5em);
+    }
+  }
